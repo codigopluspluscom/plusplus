@@ -1,0 +1,151 @@
+body{
+    font-size: 18px;
+    font-family: Arvo, serif;
+}
+.navbar-inverse{
+    background-color: 303030;
+    margin: 0px;
+}
+.blue{
+    color: #D84D48;
+    text-align: center;
+}
+.navbar-inverse .navbar-nav > li > a:hover
+/*.navbar-inverse .navbar-nav > li > a:focus*/ {
+/*    background-color: white;*/
+    border-bottom: 1px solid #29659B;
+    padding-bottom: 14px;
+    color: #CDE7F4;
+}
+li:hover::after {
+    content: ' ';
+    position: absolute;
+    border: solid 10px transparent;
+    border-top: solid 0px transparent;
+    border-width: 15px;
+    left: 50%;
+    margin-left: -10px;
+    border-color: #D84D48 transparent transparent transparent;
+}
+.navbar-inverse{
+    height: 60px;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px #888888;
+}
+  .navbar-nav > li {
+    display: inline-block;
+  }
+.brandLogo{
+    height: 43px;
+    width: 40px;
+    margin-top: 0px;
+}
+.right {
+    float: right; 
+  }
+.jumbotron{
+    background: url(img/Love-Coding.png) no-repeat;
+    height: 580px;
+}
+.jumbotron h1{
+    color: #CCE7F0;
+    text-align: center;
+}
+.jumbotron p{
+    color: #29649E;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #D74D4A;
+}
+#search.open {
+    opacity: 1;
+    transform: translate(0px, 0px) scale(1, 1);
+}
+#search {
+    background-color: #222222;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+    z-index: 2000;
+    
+}
+#search .close {
+    color: #be5254;
+    font-size: 40px;
+    opacity: 1;
+    padding: 10px 17px;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+}
+.close {
+    float: right;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#search input[type="text"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #2B639C;
+    font-family: "Open Sans",sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin: -51px auto 0;
+    outline: medium none;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+#search .btn {
+    left: 50%;
+    margin-top: 60px;
+    padding: 10px 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+}
+.youknow-icon a {
+    background: #222222 none repeat scroll 0 0 !important;
+    border-radius: 40px !important;
+    color: #9D9D9D !important;
+    font-size: 26px;
+    height: 44px;
+    margin: 3px -12px 0 0;
+    padding: 7px 0 0 !important;
+    text-align: center;
+    width: 44px;
+}
+.popup-box-on {
+    display: block !important;
+}
+.off {
+    display: none;
+}
+
+.itemsIn-portfolio {
+    margin-bottom: 25px;
+    
+}
+.col-md-4 h3 a{
+    color: #2A609E;
+/*    color: #CCE7F0;*/
+    text-decoration: none;
+}
+.col-md-4 h3 a:hover{
+    color: red;
+    text-decoration: none;
+}
