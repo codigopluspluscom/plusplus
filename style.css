@@ -149,3 +149,35 @@ button.close {
     color: red;
     text-decoration: none;
 }
+.footer{
+    background-color: #2B2B2B;
+    height: 200px;
+    padding: 2px 2px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.footer-col{
+    border-right: 1px solid white;
+    text-align: center;
+}
+.footer-icons{
+    border-right: 1px solid white;
+    text-align: center;
+}
+.footer-col a{
+    color: #D74D4A;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-col a:hover{
+    color: #286090;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-col h2{
+    color: #CCE7F0;
+    text-align: center;
+    text-decoration: none;
+}
+
