@@ -2,6 +2,7 @@ body{
     font-size: 18px;
     font-family: Arvo, serif;
 }
+/*the nav and the logobrand*/
 .navbar-inverse{
     background-color: 303030;
     margin: 0px;
@@ -43,10 +44,12 @@ li:hover::after {
 .right {
     float: right; 
   }
+/*jumbotron styles*/
 .jumbotron{
     background: url(img/Love-Coding.png) no-repeat;
     height: 580px;
 }
+
 .jumbotron h1{
     color: #CCE7F0;
     text-align: center;
@@ -55,6 +58,7 @@ li:hover::after {
     color: #29649E;
     text-align: center;
 }
+/*the popup search window*/
 .btn-primary{
     background-color: #D74D4A;
 }
@@ -135,6 +139,7 @@ button.close {
 .off {
     display: none;
 }
+/*the posts are here*/
 
 .itemsIn-portfolio {
     margin-bottom: 25px;
@@ -149,6 +154,7 @@ button.close {
     color: red;
     text-decoration: none;
 }
+/*footer*/
 .footer{
     background-color: #2B2B2B;
     height: 200px;
@@ -180,4 +186,31 @@ button.close {
     text-align: center;
     text-decoration: none;
 }
+/*deletes some of the footer items */
+@media only screen and (max-width: 990px) {
+        .footer-col h2, p{
+    display: none;
+}
+    .footer-icons{
+    border-right: 0px solid white;
+    text-align: center;
+}
 
+}
+/*about starts here*/
+ .bg-1 {
+      background-color: #D74D4A; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #303030; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
